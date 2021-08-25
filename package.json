@@ -1,0 +1,21 @@
+{
+  "name": "my-web-landing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild ./src/index.jsx --bundle --inject:./inject/react-shim.js --outfile=out.js"
+  },
+  "keywords": [
+    "JS",
+    "web",
+    "landing"
+  ],
+  "author": "wefq",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.12.22",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

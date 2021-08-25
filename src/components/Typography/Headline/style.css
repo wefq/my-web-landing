@@ -1,0 +1,18 @@
+.headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+
+.headline_first {
+  font-size: 48px;
+}
+
+.headline_second {
+  font-size: 36px;
+}
+
+.headline_third {
+  font-size: 24px;
+}
