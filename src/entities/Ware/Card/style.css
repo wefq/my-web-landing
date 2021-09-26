@@ -1,0 +1,55 @@
+@import url('https://css.gg/shopping-bag.css');
+
+.product-card {
+  margin: 10px 0 0 10px;
+  width: 300px;
+  box-sizing: content-box;
+  font-weight: 600;
+}
+
+.product-card img {
+  height: 300px;
+  width: 300px;
+}
+
+.product-card_footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.product-card__footer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-card__footer_text span {
+  color: var(--grey);
+  font-weight: 600;
+}
+
+.product-card:hover {
+  box-shadow: 2px 2px 50px lightgray;
+  transition: all 200ms ease-in-out;
+}
+
+.product-card_button {
+  visibility: hidden;
+  align-self: flex-end;
+  width: 35px;
+  height: 35px;
+  background-color: var(--darkBlue);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card:hover .product-card_button {
+  visibility: visible;
+}

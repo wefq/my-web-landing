@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import './colors.css';
+@import '../components/Typography/Addition/style.css';
+@import '../components/Typography/Headline/style.css';
+@import '../components/Typography/Paragraph/style.css';
+@import '../components/Button/style.css';
+@import '../components/Section/style.css';
+@import '../components/Card/style.css';
+@import '../entities/Ware/Card/style.css';
+@import '../entities/Ware/Card/Extra/style.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Lato', sans-serif;
+  color: var(--darkBlue);
+}
+
+html,
+body,
+section,
+#root,
+main {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

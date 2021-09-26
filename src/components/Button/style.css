@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.default {
+  background-color: var(--green);
+}
+
+.hot {
+  color: inherit;
+  background-color: inherit;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--darkBlue) ;
+}
+
+.cold {
+  background-color: var(--yellow);
+}
