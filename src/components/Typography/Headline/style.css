@@ -8,8 +8,15 @@
 
 .headline_second {
   font-size: 36px;
+  letter-spacing: 3px;
 }
 
 .headline_third {
-  font-size: 24px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.headline_fourth {
+  font-size: 15px;
+  letter-spacing: 1px;
 }

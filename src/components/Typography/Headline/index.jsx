@@ -6,6 +6,8 @@ export const Headline = ({ level, ...props }) => {
       return <h2 {...props} className={'headline headline_second' + ' ' + props.className} />;
     case 3:
       return <h3 {...props} className={'headline headline_third' + ' ' + props.className} />;
+      case 4:
+      return <h4 {...props} className={'headline headline_fourth' + ' ' + props.className} />;
     default: return;
   }
 }

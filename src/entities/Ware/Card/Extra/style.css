@@ -11,8 +11,8 @@
   color: white;
 
   position: absolute;
-  margin-top: 15px;
-  margin-left: calc(300px - 35px - 15px);
+  margin-top: 10px;
+  margin-left: calc(260px - 35px - 10px);
 }
 
 .new {

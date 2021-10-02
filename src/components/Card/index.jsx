@@ -3,9 +3,9 @@ import { Headline } from '../Typography/Headline'
 import { Paragraph } from '../Typography/Paragraph'
 import { Button } from '../Button'
 
-export const Card = ({ background, itemsPosition, addition, headline, paragraph, button }) => {
+export const Card = ({ background, itemsPosition, size, addition, headline, paragraph, button }) => {
   return (
-    <div className={`card ${background} ${itemsPosition}`}>
+    <div className={`card ${background} ${itemsPosition} ${size}`}>
 
       {addition?.children && <Addition {...addition} />}
 

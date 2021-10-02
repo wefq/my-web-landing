@@ -4,8 +4,11 @@
   justify-content: center;
   align-items: center;
   font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
   border: none;
   cursor: pointer;
+ 
 }
 
 .default {
@@ -16,7 +19,6 @@
   color: inherit;
   background-color: inherit;
   padding: 0 0 10px;
-  border-bottom: 1px solid var(--darkBlue) ;
 }
 
 .cold {

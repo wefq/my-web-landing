@@ -1,15 +1,14 @@
 @import url('https://css.gg/shopping-bag.css');
 
 .product-card {
-  margin: 10px 0 0 10px;
-  width: 300px;
+  width: 260px;
   box-sizing: content-box;
   font-weight: 600;
 }
 
 .product-card img {
-  height: 300px;
-  width: 300px;
+  height: 260px;
+  width: 260px;
 }
 
 .product-card_footer {

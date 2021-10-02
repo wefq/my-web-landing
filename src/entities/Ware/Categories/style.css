@@ -1,0 +1,28 @@
+.categories {
+  display: grid;
+  grid-template: 40px/ repeat(6, 1fr);
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  width: 750px;
+  margin: 0 auto 30px auto;
+}
+
+.categories li {
+  box-sizing: content-box;
+}
+
+.categories__button {
+  background-color: #F2F3F8;
+  font-size: 12px;
+  width: 110px;
+  height: 40px;
+  color: var(--grey);
+  padding: 10px;
+}
+
+.categories__button_active {
+  color: var(--white);
+  background-color: var(--darkBlue);
+
+}
