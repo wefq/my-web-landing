@@ -1,13 +1,12 @@
 import React from 'react'
 import { Card } from '../../../components/Card'
 
-export const Arrivals = ({ cards }) => {
-
+export const Gallery = ({ cards }) => {
   return (
     <div className='arrivals__gallery'>
-      {cards.map(card =>{ 
-        return <Card key={cards.indexOf(card)} {...card} />}
-      )}
+      {cards.map((card, index) => {
+        return <Card key={index} {...card} />
+      })}
     </div>
   )
 }

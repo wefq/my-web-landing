@@ -1,0 +1,12 @@
+.sales { 
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; 
+  margin-bottom: 30px;
+}
+
+.sales div.section__header{
+  align-items: flex-start;
+  width: 400px;
+}

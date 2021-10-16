@@ -5,7 +5,7 @@ import { Button } from '../Button'
 
 export const Card = ({ background, itemsPosition, size, addition, headline, paragraph, button }) => {
   return (
-    <div className={`card ${background} ${itemsPosition} ${size}`}>
+    <div className={`card ${background} ${itemsPosition} ${size ? size : ''}`}>
 
       {addition?.children && <Addition {...addition} />}
 

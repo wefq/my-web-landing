@@ -44,5 +44,4 @@ export const Card = ({ image, headline, paragraph, addition, extra }) => {
       </div>
 
     </div>
-  )
-}
+  )}

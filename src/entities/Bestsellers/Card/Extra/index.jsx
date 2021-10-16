@@ -24,8 +24,7 @@ export const Extra = ({ type, ...props }) => {
     case 'new':
       return <div className={`extra ${type}`} children='NEW' />;
 
-    default: console.errog(`Type: ${type} is not implemented`);
-
+    default: throw `Type: ${type} is not implemented`;
   }
 }
 

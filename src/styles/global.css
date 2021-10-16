@@ -3,15 +3,24 @@
 @import '../components/Typography/Addition/style.css';
 @import '../components/Typography/Headline/style.css';
 @import '../components/Typography/Paragraph/style.css';
+@import '../components/Typography/Link/style.css';
 @import '../components/Button/style.css';
 @import '../components/Section/style.css';
 @import '../components/Card/style.css';
-@import '../entities/Ware/Card/style.css';
-@import '../entities/Ware/Card/Extra/style.css';
-@import '../entities/Ware/List/style.css';
-@import '../entities/Section/style.css';
-@import '../entities/Ware/Categories/style.css';
-@import '../entities/Ware/Arrivals/style.css';
+@import '../entities/Bestsellers/Card/style.css';
+@import '../entities/Bestsellers/Card/Extra/style.css';
+@import '../entities/Bestsellers/List/style.css';
+@import '../entities/Bestsellers/Categories/style.css';
+@import '../entities/Arrivals/Gallery/style.css';
+@import '../entities/Sales/style.css';
+@import '../entities/Footer/style.css';
+@import '../entities/Header/style.css';
+@import '../entities/Header/HeaderMenu/style.css';
+@import '../entities/Header/Navigation/style.css';
+@import '../entities/Footer/style.css';
+@import '../entities/Footer/FooterMenu/style.css';
+@import '../entities/Footer/Contacts/style.css';
+@import '../entities/Footer/Social/style.css';
 
 * {
   margin: 0;
@@ -33,11 +42,10 @@ main {
   height: 100%;
 } */
 
-body{
-}
+body {}
 
 main {
   margin-left: auto;
   margin-right: auto;
-  width: 1300px;
+  width: 100%;
 }
